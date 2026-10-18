@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  rag-backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - JWT_SECRET=production_secret_key_2026
+    volumes:
+      - ./data:/app/data
+
+  rag-frontend:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - rag-backend

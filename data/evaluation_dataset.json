@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "category": "Deductibles & Out-of-Pocket",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "What is the annual in-network individual deductible under the Apex Gold plan?",
+    "expected_answer": "$1,500 per policy year",
+    "expected_page": 1,
+    "key_entities": ["1,500", "individual deductible", "policy year"]
+  },
+  {
+    "id": 2,
+    "category": "Deductibles & Out-of-Pocket",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "What is the maximum out-of-pocket limit for an individual in-network?",
+    "expected_answer": "$5,000 per calendar year",
+    "expected_page": 1,
+    "key_entities": ["5,000", "out-of-pocket", "calendar year"]
+  },
+  {
+    "id": 3,
+    "category": "Coverage & Copayments",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "How much is the copayment for a Primary Care Physician (PCP) visit?",
+    "expected_answer": "$25 copayment with deductible waived",
+    "expected_page": 1,
+    "key_entities": ["25", "copayment", "waived"]
+  },
+  {
+    "id": 4,
+    "category": "Coverage & Copayments",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "Are annual wellness and preventive exams subject to a copayment?",
+    "expected_answer": "100% covered with no copayment in-network",
+    "expected_page": 1,
+    "key_entities": ["100%", "no copayment", "preventive"]
+  },
+  {
+    "id": 5,
+    "category": "Hospitalization & Inpatient",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "How many consecutive days of semi-private hospital room and board are covered per benefit period?",
+    "expected_answer": "Up to a maximum duration of 180 consecutive days per benefit period",
+    "expected_page": 2,
+    "key_entities": ["180", "consecutive days", "semi-private"]
+  },
+  {
+    "id": 6,
+    "category": "Hospitalization & Inpatient",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "What is the copayment and coinsurance for an inpatient surgical procedure?",
+    "expected_answer": "$250 institutional copayment followed by 20% coinsurance in-network",
+    "expected_page": 2,
+    "key_entities": ["250", "20%", "coinsurance"]
+  },
+  {
+    "id": 7,
+    "category": "Emergency Services",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "Under what condition is the $200 Emergency Room copayment waived?",
+    "expected_answer": "The copayment is waived if formally admitted to the hospital within 24 hours of arrival",
+    "expected_page": 2,
+    "key_entities": ["waived", "admitted", "24 hours"]
+  },
+  {
+    "id": 8,
+    "category": "Emergency Services",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "What is the coverage limit for air ambulance medical transportation?",
+    "expected_answer": "Reimbursable at 90% up to $25,000 per incident for immediate threat to life or limb",
+    "expected_page": 2,
+    "key_entities": ["25,000", "90%", "air ambulance"]
+  },
+  {
+    "id": 9,
+    "category": "Prescription Drugs",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "What is the retail copayment for Tier 1 generic prescription drugs?",
+    "expected_answer": "$10 copayment for a 30-day retail supply",
+    "expected_page": 3,
+    "key_entities": ["10", "tier 1", "generic"]
+  },
+  {
+    "id": 10,
+    "category": "Prescription Drugs",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "Can Tier 4 specialty biologics be purchased through mail-order pharmacy?",
+    "expected_answer": "Tier 4 specialty biologics are not available by mail order and require strict prior authorization",
+    "expected_page": 3,
+    "key_entities": ["not available by mail", "prior authorization", "tier 4"]
+  },
+  {
+    "id": 11,
+    "category": "Mental Health",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "Is there an annual limit on outpatient psychotherapy or counseling visits?",
+    "expected_answer": "No annual limit on outpatient visits, with a $25 copayment per session under parity laws",
+    "expected_page": 3,
+    "key_entities": ["no annual limit", "25 copayment", "mental health"]
+  },
+  {
+    "id": 12,
+    "category": "Mental Health",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "How many days of inpatient substance abuse detoxification are covered per calendar year?",
+    "expected_answer": "Up to 30 days per calendar year",
+    "expected_page": 3,
+    "key_entities": ["30 days", "detoxification", "substance abuse"]
+  },
+  {
+    "id": 13,
+    "category": "Pre-Existing Conditions",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "What is the standard pre-existing condition waiting period duration?",
+    "expected_answer": "12 consecutive months from the effective date of coverage",
+    "expected_page": 4,
+    "key_entities": ["12 consecutive months", "waiting period", "effective date"]
+  },
+  {
+    "id": 14,
+    "category": "Pre-Existing Conditions",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "How can an insured policyholder waive the pre-existing condition waiting period?",
+    "expected_answer": "By presenting proof of continuous prior creditable coverage for at least 12 months with no break over 63 days",
+    "expected_page": 4,
+    "key_entities": ["prior creditable coverage", "12 months", "63 days"]
+  },
+  {
+    "id": 15,
+    "category": "Pre-Existing Conditions",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "Does the pre-existing condition waiting period apply to pregnancy or children under 19?",
+    "expected_answer": "No, pre-existing waiting periods do not apply to pregnancy, childbirth, newborn adoption, or individuals under 19",
+    "expected_page": 4,
+    "key_entities": ["not apply", "pregnancy", "under 19"]
+  },
+  {
+    "id": 16,
+    "category": "Maternity & Newborn",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "How long is a newborn automatically covered after birth before enrollment amendment is required?",
+    "expected_answer": "Automatically covered for the first 31 days following birth",
+    "expected_page": 4,
+    "key_entities": ["31 days", "newborn", "birth"]
+  },
+  {
+    "id": 17,
+    "category": "Maternity & Newborn",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "What is the lifetime maximum benefit limit for IVF and artificial insemination?",
+    "expected_answer": "Lifetime maximum benefit of $15,000 per insured individual",
+    "expected_page": 4,
+    "key_entities": ["15,000", "lifetime maximum", "ivf"]
+  },
+  {
+    "id": 18,
+    "category": "Exclusions",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "Are routine adult dental exams and cleanings covered under the Apex Health plan?",
+    "expected_answer": "No, routine adult dental examinations, cleanings, and orthodontia are strictly excluded",
+    "expected_page": 5,
+    "key_entities": ["not covered", "excluded", "dental"]
+  },
+  {
+    "id": 19,
+    "category": "Exclusions",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "Is acupuncture or homeopathic treatment covered under the general policy?",
+    "expected_answer": "Excluded unless an optional Integrative Medicine Rider has been explicitly purchased",
+    "expected_page": 5,
+    "key_entities": ["excluded", "alternative medicine", "integrative medicine rider"]
+  },
+  {
+    "id": 20,
+    "category": "Claims & Appeals",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "What is the timely filing deadline to submit health claims for reimbursement?",
+    "expected_answer": "Within 180 calendar days from the date services were rendered",
+    "expected_page": 6,
+    "key_entities": ["180 calendar days", "timely filing", "rendered"]
+  },
+  {
+    "id": 21,
+    "category": "Claims & Appeals",
+    "document": "Apex_Comprehensive_Health_Policy_2026.pdf",
+    "question": "Within how many business days must clean health claims be adjudicated?",
+    "expected_answer": "Within 30 business days of receipt",
+    "expected_page": 6,
+    "key_entities": ["30 business days", "adjudicate", "clean claims"]
+  },
+  {
+    "id": 22,
+    "category": "Auto Liability Limits",
+    "document": "Zenith_Auto_Comprehensive_Policy.pdf",
+    "question": "What are the bodily injury liability limits on the Zenith Auto policy?",
+    "expected_answer": "$250,000 per person and $500,000 per accident",
+    "expected_page": 1,
+    "key_entities": ["250,000", "500,000", "bodily injury"]
+  },
+  {
+    "id": 23,
+    "category": "Auto Liability Limits",
+    "document": "Zenith_Auto_Comprehensive_Policy.pdf",
+    "question": "What is the deductible for collision coverage on the auto policy?",
+    "expected_answer": "$500 deductible per collision claim",
+    "expected_page": 1,
+    "key_entities": ["500", "collision", "deductible"]
+  },
+  {
+    "id": 24,
+    "category": "Auto Physical Damage",
+    "document": "Zenith_Auto_Comprehensive_Policy.pdf",
+    "question": "Under what condition is the collision deductible waived?",
+    "expected_answer": "Waived if the accident was caused 100% by an identified insured Zenith policyholder",
+    "expected_page": 2,
+    "key_entities": ["waived", "100%", "identified", "zenith policyholder"]
+  },
+  {
+    "id": 25,
+    "category": "Auto Physical Damage",
+    "document": "Zenith_Auto_Comprehensive_Policy.pdf",
+    "question": "Does comprehensive coverage apply if a vehicle collides with an animal such as a deer?",
+    "expected_answer": "Yes, contact with animals is covered under comprehensive with a $250 deductible",
+    "expected_page": 2,
+    "key_entities": ["comprehensive", "animals", "deer", "250"]
+  },
+  {
+    "id": 26,
+    "category": "Auto Physical Damage",
+    "document": "Zenith_Auto_Comprehensive_Policy.pdf",
+    "question": "Is the comprehensive deductible waived for windshield resin repair?",
+    "expected_answer": "Yes, if glass can be repaired via resin injection rather than replacement, the $250 deductible is waived",
+    "expected_page": 2,
+    "key_entities": ["resin injection", "waived", "windshield", "repair"]
+  },
+  {
+    "id": 27,
+    "category": "Auto Roadside Assistance",
+    "document": "Zenith_Auto_Comprehensive_Policy.pdf",
+    "question": "What is the maximum towing distance covered under Zenith Roadside Assistance?",
+    "expected_answer": "Towing up to 25 miles from disablement location",
+    "expected_page": 2,
+    "key_entities": ["25 miles", "towing", "disablement"]
+  },
+  {
+    "id": 28,
+    "category": "Auto Exclusions",
+    "document": "Zenith_Auto_Comprehensive_Policy.pdf",
+    "question": "Is ridesharing (Uber or Lyft) covered under the standard Zenith auto policy?",
+    "expected_answer": "No, commercial or rideshare driving is excluded unless an explicit Rideshare Endorsement is added",
+    "expected_page": 3,
+    "key_entities": ["rideshare", "excluded", "rideshare endorsement", "commercial"]
+  },
+  {
+    "id": 29,
+    "category": "Auto Claims & Total Loss",
+    "document": "Zenith_Auto_Comprehensive_Policy.pdf",
+    "question": "What is the deadline for reporting an auto accident to Zenith?",
+    "expected_answer": "Within 72 hours of the incident",
+    "expected_page": 4,
+    "key_entities": ["72 hours", "reporting deadline", "accident"]
+  },
+  {
+    "id": 30,
+    "category": "Auto Claims & Total Loss",
+    "document": "Zenith_Auto_Comprehensive_Policy.pdf",
+    "question": "What percentage of Actual Cash Value constitutes a total loss under Zenith policy?",
+    "expected_answer": "When estimated repair costs plus salvage value exceed 75% of pre-accident Actual Cash Value",
+    "expected_page": 4,
+    "key_entities": ["75%", "total loss", "actual cash value", "acv"]
+  }
+]
