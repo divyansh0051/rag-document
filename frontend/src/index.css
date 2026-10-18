@@ -1,5 +1,6 @@
-@layer base {
-  :root {
+@import "tailwindcss";
+
+:root {
     --bg-primary: #030712;
     --bg-secondary: #0f172a;
     --bg-card: rgba(15, 23, 42, 0.75);
@@ -11,7 +12,6 @@
     --text-primary: #f8fafc;
     --text-muted: #94a3b8;
   }
-}
 
 * {
   box-sizing: border-box;
